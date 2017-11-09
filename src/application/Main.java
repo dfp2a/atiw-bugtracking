@@ -16,7 +16,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			Label t = new Label();
-			t.setText("Halllo Welt");
+			t.setText("Hallo Welt");
 			VBox vbox= new VBox(t);
 			Parent root = vbox;
 			Scene scene = new Scene(root,400,400);
